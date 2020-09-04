@@ -1,0 +1,48 @@
+.expand-container{
+    padding-top: 25px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.expand-container .right{
+    display: flex;
+    padding-top: 6px;
+}
+.expand-container .right .arrow-display{
+    display: flex;
+    flex-direction: column;
+    cursor:pointer;
+}
+.expand-container .right p{
+    padding-left: 12px;
+    padding-top: 3px;
+    color: #ADB0B9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    cursor:pointer;
+}
+.expand-container .right .arrow-display  i{
+    height: 15px;
+    color: #329896;
+    padding-left:9px;
+    font-size: 18px;
+}
+.expand-container .left .display-flex{
+    display: flex;
+    flex-direction: column;
+}
+.expand-container .left .display-flex >span{
+    background: #fff;
+    width: 6px;
+    height: 6px;
+    border-radius: 10px;
+    margin: 1px;
+    cursor:pointer;
+}
+.swap .fa-angle-up:before{
+    content:"\f107";
+}
+.swap .fa-angle-down:before{
+    content:"\f106";
+}

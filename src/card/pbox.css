@@ -1,0 +1,240 @@
+.bgcl-green{
+    background-color: rgba(45, 191, 22, 0.9);
+}
+.bgcl-blue{
+    background-color: rgba(2, 107, 193, 0.9);
+}
+.bgcl-pink{
+    background-color: rgba(247, 0, 101, 0.9);
+}
+.bgcl-purple{
+    background-color: rgba(84, 78, 159, 0.9);
+}
+.bgcl-orange{
+    background-color: rgba(254, 172, 44, 0.9);
+}
+/*  */
+.box-click
+{  line-height: 1.42857143;
+   color: #fff;
+   position: absolute;
+   z-index:60;   
+}
+.box-click .box-content{
+    padding:0px 15px;
+}
+.box-click .box-content .pad-head{
+    padding:10px 0px;
+}
+.pad-lower-row{
+    padding: 20px 0px 20px 15px;
+}
+.cu-point{
+    cursor: pointer;
+}
+.box-click .pad-last-2{
+    padding: 14px 15px 14px 15px;
+    font-weight: normal;
+}
+.box-click .box-content .just-btw{
+    justify-content: space-between;
+}
+.box-click .box-content .row{
+    position: relative;
+    display: flex;
+    width:100%;
+}
+.box-click .box-content .row .dis-f{
+    display: flex;
+    align-items: center;
+}
+.box-click .box-content .row .dis-f > h6{
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    opacity: 0.7;
+    padding-left: 0px;
+    cursor:pointer;
+}
+.box-click .box-content .row .fa{
+    position:absolute;
+    top:14px;
+    right:0px;
+    z-index:50;
+    cursor:pointer;
+}
+
+.box-click .box-content .first-p{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 17px;
+    cursor:pointer;
+    font-weight: 350;
+    letter-spacing: 0.2px;
+}
+.box-click .box-content .row  .last-p{
+    font-size: 29px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    cursor:pointer;
+    letter-spacing: 0.2px;
+}
+
+.pad-lower-row >p {
+    font-size: 14px;
+    line-height: 1.42857143;
+    cursor:pointer;
+    letter-spacing: 0.2px;
+    font-weight: 350;
+}
+.pad-last-2 >p{
+    font-size: 14px;
+    line-height: 1.42857143;
+    cursor:pointer;
+    font-weight: 350;
+    letter-spacing: 0.2px;
+}
+.pd-l-2{
+    padding-left: 4px;
+}
+/* =================== */
+
+.row-content{
+    display: none;
+}
+.in-d-b{
+    display: block;
+}
+.clndr-style{
+    width:100%;
+    background: transparent;
+    border:1px solid white;
+}
+.d-no{
+    display: none;
+}
+.top-perfor{
+    font-size:14px ;
+    font-weight: normal;
+
+}
+.performers-pad-y{
+    padding:14px 20px;
+}
+.performers-content{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    transition: 1s;
+}
+.div:hover{
+    background: #2DBF16;
+}
+.view-all-performers-green-bg{
+    background: #2DBF16;
+}
+.view-all-performers-pink-bg{
+    background: #E10D59;
+}
+.view-all-performers-purple-bg{
+    background: #514CAA;
+}
+.view-all-performers-blue-bg{
+    background: #2d75e4;
+}
+.view-all-performers-orange-bg{
+    background: #FEAC2C;
+}
+.img-avat{
+    width:17%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    height:30px;
+}
+.img-avat > img{
+    width:100%;
+    border-radius: 50%;
+}
+.avat-text{
+    width:65%;
+}
+.avat-text > p{
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.last-img-op{
+    opacity: 0.3;
+}
+.active-perfor-bg{
+    background: rgba(44, 52, 73, 0.2);
+}
+.w-green-cus{
+    width: 760px;
+    background-color: rgba(45, 191, 22, 0.9);
+    z-index: 3900;
+}
+.w-pink-cus{
+    width: 760px;
+    background-color: rgba(247, 0, 101, 0.9);
+}
+.w-purple-cus{
+    width: 760px;
+    background-color: rgba(84, 78, 159, 0.9);
+}
+.w-blue-cus{
+    width: 760px;
+    background-color: rgba(2, 107, 193, 0.9);
+}
+.w-orange-cus{
+    width: 760px;
+    background-color: rgba(254, 172, 44, 0.9);
+}
+.w-cus{
+    display: none;
+}
+.chart-box{
+    padding:0!important;
+    width: 760px;
+}
+.ch-pos{
+    position:relative;
+}
+.img-div{
+    padding-top:20px;
+    padding-bottom:20px;
+    background-image: url("http://scte-dashboard.s3-website-us-west-2.amazonaws.com/asset/graph5.svg");
+    background-size: cover;
+    width: 760px;
+    min-height: 178px;
+    position: relative;
+}
+.chart-text{
+    font-size: 20px;
+    width:100%;
+    padding:14px 20px;
+    position: absolute;
+    bottom:0px;
+    display: flex;
+    justify-content: space-between;
+}
+.chart-box > img{
+    width:100%;
+    display: flex;
+}
+.pink-h:hover{
+    background: #E10D59;
+}
+.green-h:hover{
+    background: #2DBF16;   
+}
+.purple-h:hover{
+    background: #514CAA;   
+}
+.blue-h:hover{
+    background: #2d75e4;   
+}
+.orange-h:hover{
+    background: #FEAC2C; 
+}

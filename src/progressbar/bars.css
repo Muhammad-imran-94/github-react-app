@@ -1,0 +1,22 @@
+.bar-div{
+    padding-right:31px;
+    padding-left:33px;
+}
+
+.bar-heading{
+    display:flex;
+    align-items: center;
+    width:95%;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.bar-heading .lab-left{
+    color: #8D9096;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.pad-ehter{
+    padding-bottom:300px;
+}

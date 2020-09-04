@@ -1,0 +1,82 @@
+.label-colr{
+    color: #476076;
+    font-size: 14px;
+}
+
+.label-org{
+    color: #F5A623!important;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.label-suggest{
+    position: absolute;
+    z-index: 2;
+    top:-8px;
+    right:-36px;
+    width:107%;
+    display: none;
+    animation: suganim .5s 1;
+}
+.suggest-upper{
+    background-color: rgba(37, 45, 62, 0.9);
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #F5A62C;
+}
+.right-side{
+    display: flex;
+}
+.right-side > span{
+    font-size:14px;
+    font-weight:300 ;
+    padding-top:8px ;
+    padding-right:12px;
+    padding-left:5px;
+}
+.right-side .fa{
+    font-size:20px ;
+    cursor:pointer;
+    animation: suganim .5s 1;
+}
+.left-side .fa{
+    font-size:22px ;
+}
+.suggest-lower{
+    background-color: rgb(57, 64, 84 );
+    padding: 15px 15px;
+}
+.suggest-lower > p{
+    color: #fff;
+    opacity: 0.7;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 14px;
+}
+.sec-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.sec-btn .orange-button{
+    background: #F5A623;
+}
+.sec-btn .black-button{
+    background: #323B52;
+}
+.sec-btn .btns{
+    padding: 11px 27px;
+    margin: 5px;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.d-b-s{
+    display: block;
+}
+
+@keyframes suganim{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

@@ -1,0 +1,184 @@
+/* {Navigation header } */
+.back-img{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(223deg, rgba(96, 105, 126, 0.5), rgba(0, 0, 0, 0.5)), url("http://scte-dashboard.s3-website-us-west-2.amazonaws.com/asset/charter_background.jpeg") no-repeat;
+    background-size: 100% 209% ;
+    background-position: 0% 101.2%;
+    background-repeat: no-repeat;
+    width:100%;
+}
+
+.padding-nav{
+    padding: 23px 41px 0 41px;
+}
+.back-img .flex-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-row .flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.flex-col .flex{
+    display: flex;
+}
+.flex-col .flex .logo  h1{
+    font-size: 57px;
+    font-family: 'Old Standard TT', serif;
+    color:white;
+    font-weight: 400;
+}
+.pad-y{
+    padding-top:14px;
+}
+.flex-col .flex .logo-img{
+    width: 102px;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    padding-left: 19px;
+}
+.flex-col .flex .logo-img > img{
+    width:100%;
+    vertical-align: middle;
+}
+
+.flex-col .list-item{
+    display: flex;  
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding-top: 6px;
+}
+.flex-col .list-item li{
+    z-index:40;
+    transition: 1s;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 6px 17px;
+    margin-top: 8px;
+    margin-left: 7px;
+    border-top:3px solid transparent;
+    border-bottom:3px solid transparent;
+    cursor:pointer;
+}
+.flex-col .list-item li a{
+    color: #ffffff;
+    opacity: 0.9;
+    text-decoration: none;
+}
+.flex-col .list-item li:nth-child(1){
+    border-top: 3px solid #F5A623;
+    border-bottom: 3px solid #F5A623;
+}
+.flex-col .list-item li:nth-child(2):hover {
+    border-top: 3px solid #34C9BA;
+    border-bottom: 3px solid #34C9BA;
+}
+.flex-col .list-item li:nth-child(3):hover {
+    border-top: 3px solid #D10CF9;
+    border-bottom: 3px solid #D10CF9;
+}
+.flex-row .mid-nav {
+    padding-top: 30px;
+}
+.flex-row .mid-nav li a{
+    padding: 4px 10px;
+    margin: 5px;
+    font-weight: 300;
+    color: #b3a9a9;
+    font-size: 11px;
+    text-decoration: none;
+}
+.flex-row .mid-nav li .first-child{
+    color: #fff;
+    padding: 14px 23px;
+    font-weight: 400;
+}
+.flex-row .mid-nav li .second-child {
+    margin-left:13px;
+}
+/* .flex-row .mid-nav li a:hover{
+    color: #fff;
+    border-radius: 40px;
+    background-color: #323B52;
+} */
+.active-nav{
+    border-radius: 40px;
+    background-color: #323B52;
+}
+.flex-row .right-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 8px;
+}
+.flex-row .right-nav  p{
+    padding-top: 52px;
+    color: #C8C9CE;
+    margin-bottom: 0;
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: right;
+}
+.flex-row .right-nav h4{
+    color:#E8A12B;
+    padding-top: 5px;
+    font-size: 20px;
+    min-height: 22px;
+    font-weight: 400;
+    cursor:pointer;
+}
+/* {Navigation header end} */
+
+/* {Curvey image and the boxes} */
+.box-image{
+    background-image: url("http://scte-dashboard.s3-website-us-west-2.amazonaws.com/asset/all.svg") ;
+    background-size: 100% ;
+    background-position:left 100% bottom 0%;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top:-25px;
+    width:100%;
+}
+.box-container{
+    display: flex;
+    padding-top:84px;
+}
+.box-style{
+    position: relative;
+    width:20%;
+}
+
+/* {=======================} */
+.box-click{
+    width:100%;
+}
+.h-box{
+    display:none;
+    position: absolute;
+    top:25px;
+    z-index: 99;
+}
+.h-box-width{
+    width:100%;
+}
+.c-width{
+    width:760px;
+}
+.h-box-widthpu{
+    width:98.6%;
+}
+.org-width{
+    width:101.7%;
+}
+
+.h-box-db{
+    display: block;
+}
+.h-box-no{
+    display: none;
+}
+.left-pos{
+    left:-4px;
+}

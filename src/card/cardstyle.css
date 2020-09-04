@@ -1,0 +1,150 @@
+.flex{
+    display:flex;
+}
+.flex .fa{
+  color:white;
+  color: #fff;
+  font-size: 16px;
+}
+.just-space{
+  justify-content: space-between;
+}
+.height-yy{
+  height:16px;
+}
+.al-item{
+  align-items: center;
+}
+.pad-box{
+  padding:0px 17px 10px 15px;
+}
+
+.flex >span{
+    background: #fff;
+    width: 6px;
+    height: 6px;
+    border-radius: 10px;
+    margin: 1px;
+    cursor:pointer;
+}
+.position-rel{
+    position: relative;
+    z-index:1;
+}
+.text-container{
+    display: flex;
+    justify-content: space-between;
+    cursor:pointer;
+}
+
+.text-container h6{
+    color: #f9f9f9;
+    font-size: 17px;
+    opacity: 0.7;
+    padding-top: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    width:50%;
+}
+.flex-end{
+  justify-content: flex-end;
+}
+
+.text-container > h5 > sup:first-child{
+    position: relative;
+    top: -28px;
+    font-size: 38px;
+    font-weight: 300;
+
+}
+.text-container > h5 > sup:last-child{
+    position: relative;
+    top: -26px;
+    right: 14px;
+    font-size: 33px;
+    font-weight: 300;
+}
+.wh-color{
+    color:white;
+}
+.gr-color{
+    opacity: 0.5;
+    color: #f9f9f9;
+}
+.text-container > h5 > .first{
+    font-size: 77px;
+    letter-spacing: -1.7px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+}
+.text-container > h5 > .extra{
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-weight: 300;
+}
+
+.bottom-text p{
+    color: #fff;
+    font-size: 11px;
+    margin-bottom: 0px;
+    padding-top: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    width:100%;
+
+}
+.bottom-text img{
+    width: 15px;
+    height: 17px;
+
+}
+
+/* =========================== */
+.upper-text{
+  padding:0px 10px;
+  animation: mymove1 .5s 1;
+}
+.pop-content{
+  background-color: rgba(37, 45, 62, 0.9);
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.text{
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+.position-abso{
+  position:absolute;
+  z-index: 3;
+  top: 4.5px;
+  left:0px;
+  display:none;
+}
+.cl-toll {
+  color: #FF3366;
+  cursor: pointer;
+}
+.df{
+  display:flex;
+  animation: mymove .5s 1;
+}
+
+
+@keyframes mymove {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes mymove1 {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
+

@@ -1,0 +1,18 @@
+.dotone{
+    display: flex;
+    align-items: center;
+}
+
+.dotone > span:first-child {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #0190EC;
+    margin-left: 10px;
+}
+.dotone .label{
+    margin-left:4px;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}

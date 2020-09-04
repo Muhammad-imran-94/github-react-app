@@ -1,0 +1,29 @@
+.box-right{
+    width:485px;
+    padding-left:117px;
+    padding-top:25px;
+}
+.box-right >p{
+    color: #8D97B1;
+    font-size: 17px;
+    padding: 29px 88px 41px 56px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    background: #444E68;
+    cursor:pointer;
+}
+.box-right > p:hover{
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.60);
+}
+.box-right >p > span{
+    color: #c3cad8;
+}
+.box-right >p::after{
+    content: '';
+    border-left: 0px solid transparent;
+    border-right: 31px solid transparent;
+    border-top: 24px solid#444E68;
+    position: absolute;
+    right:25px;
+    bottom:-24px;
+}

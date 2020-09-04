@@ -1,0 +1,27 @@
+.dotstwo{
+   display: flex;
+   align-items: center;
+}
+
+.dotstwo >span:first-child{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #4EE2C0;
+    margin-left: 10px;
+}
+
+.dotstwo .yellow{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #DCB337;
+    margin-left: 4px;
+}
+
+.mid-head{
+    margin-left:4px;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}

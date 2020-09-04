@@ -1,0 +1,22 @@
+.sub-col{
+    width:28.5%;
+    display: flex;
+    flex-direction: column;
+}
+.sub-col ul {
+    list-style-type: none;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.sub-col  ul li a{
+    text-decoration: none;
+    color: #0685D9;
+    background-color: transparent;
+    line-height: 1.42857143;
+}
+.sub-col > ul > li:first-child{
+    color: #0685D9;
+    padding-bottom: 24px;
+    font-weight: 600;
+}
